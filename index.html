@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DRDS Demonlist</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: #F5F5F5; /* light gray */
+      color: #1A1A1A; /* dark text */
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      padding: 0;
+      counter-reset: levelCounter;
+    }
+
+    header {
+      background: #FFFFFF; /* white */
+      padding: 25px;
+      text-align: center;
+      border-bottom: 2px solid #E0E0E0; /* soft gray */
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      color: #1A1A1A;
+      font-weight: 700;
+    }
+
+    .discord-button {
+      display: inline-block;
+      margin-top: 12px;
+      background: #3B82F6; /* pointercrate blue */
+      color: #FFFFFF;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    .discord-button:hover {
+      background: #2563EB; /* darker blue */
+    }
+
+    main {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 0 20px 50px;
+    }
+
+    .level-block {
+      background: #FFFFFF; /* white card */
+      border: 2px solid #E0E0E0; /* soft gray border */
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 25px;
+      counter-increment: levelCounter;
+    }
+
+    .level-title::before {
+      content: "#" counter(levelCounter) " — ";
+      color: #4B5563; /* muted gray */
+      font-weight: 700;
+    }
+
+    .level-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #1A1A1A;
+      margin-bottom: 6px;
+    }
+
+    .creator {
+      font-size: 1.1rem;
+      color: #4B5563; /* muted gray */
+    }
+
+    a {
+      color: #3B82F6; /* pointercrate blue */
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DRDS Demonlist</h1>
+
+    <a class="discord-button" href="about:blank" target="_blank">
+      No Discord Server Yet For DRDS
+    </a>
+  </header>
+
+  <main>
+
+    <div class="level-block">
+      <div class="level-title"><a href="nickiosplayzz1.html">Theory Of Impossibility</a></div>
+      <div class="creator">by nickiosplayzz</div>
+    </div>
+
+  </main>
+</body>
+</html>
